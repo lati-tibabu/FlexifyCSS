@@ -1,4 +1,3 @@
-
 ---
 
 ## flexifycss - A CSS Utility Library for Effortless Styling
@@ -148,7 +147,7 @@ Run your React app. You should see the two colored divs rendered according to th
 
 **Font Sizes**
 
-- `.text-xs` to `.text-6xl`: Applies font sizes based on predefined variables.
+- `.font-xs` to `.font-6xl`: Applies font sizes based on predefined variables.
 
 **Line Heights**
 
