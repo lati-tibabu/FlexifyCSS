@@ -3,7 +3,7 @@
 
 ## flexifycss - A CSS Utility Library for Effortless Styling
 
-**flexifycss** is a lightweight CSS utility library designed to make styling faster and more efficient. It provides a collection of pre-defined utility classes that allow you to apply common styles with just a few words, making your code cleaner and more readable.
+**flexifycss** is a lightweight CSS utility library designed to streamline your styling process, making it faster and more efficient. It provides a comprehensive set of pre-defined utility classes that let you apply common styles with just a few words, resulting in cleaner, more readable code.
 
 ### Installation
 
@@ -17,15 +17,15 @@ npm install flexifycss
 
 Import flexifycss into your project:
 
-```JavaScript
+```javascript
 import React from 'react';
-import 'flexifycss';
+import 'flexifycss'; 
 
 const FlexifyCssExample = () => {
   return (
-    <div className="flex-row gap-10 p-20">
-      <div className="w-50p h-200px back-color-blue80 br-10"></div>
-      <div className="w-50p h-200px back-color-red80 br-circle"></div>
+    <div className="flex-row gap-10 p-20"> 
+      <div className="w-50p h-200px back-color-blue-80 br-10"></div> 
+      <div className="w-50p h-200px back-color-red-80 br-circle"></div> 
     </div>
   );
 };
@@ -33,31 +33,31 @@ const FlexifyCssExample = () => {
 export default FlexifyCssExample;
 ```
 
-Explanation:
+**Explanation:**
 
-- **Import React:** This imports the React library, essential for creating React components.
-- **Import CSS:** This line imports your `flexifycss.css` file, which contains the utility classes you want to use.
-- **Create a Functional Component:** `FlexifyCssExample` is a functional component in React, a simple way to define UI elements.
-- **JSX Structure:** The component returns JSX, which is a syntax extension for JavaScript that lets you write HTML-like structures within your code.
-- **className:** The `className` attribute is used to apply the flexifycss utility classes to HTML elements.
+- **Import React:** Imports the React library, necessary for creating React components.
+- **Import flexifycss:** Imports your flexifycss.css file, containing the utility classes.
+- **Create a Functional Component:** Defines a simple React component (`FlexifyCssExample`) to showcase usage.
+- **JSX Structure:** Returns JSX, a syntax for writing HTML-like elements within JavaScript.
+- **className:** Applies flexifycss utility classes to HTML elements:
   - `.flex-row`: Creates a flex container with row direction.
   - `.gap-10`: Adds a 10px gap between flex items.
   - `.p-20`: Applies 20px padding on all sides.
   - `.w-50p`: Sets the width to 50% of the parent container.
   - `.h-200px`: Sets the height to 200 pixels.
-  - `.back-color-blue80`: Sets the background color to a blue shade from your CSS.
+  - `.back-color-blue-80`: Sets the background color to a blue shade (defined in your CSS).
   - `.br-10`: Sets the border-radius to 10 pixels.
   - `.br-circle`: Sets the border-radius to 50% to create a circle.
 
-### How to Use:
+**How to Use:**
 
 1. Create a React project (using Create React App or similar).
-2. Put the above code into a file, for example, `FlexifyCssExample.js`.
+2. Place the example code in a file, e.g., `FlexifyCssExample.js`.
 3. Import and render the component in your app's root file (like `App.js`):
 
-```JavaScript
+```javascript
 import React from 'react';
-import FlexifyCssExample from './FlexifyCssExample';
+import FlexifyCssExample from './FlexifyCssExample'; 
 
 function App() {
   return (
@@ -70,166 +70,106 @@ function App() {
 export default App;
 ```
 
-Run your React app. You should see the two colored divs rendered according to the flexifycss utility classes.
+4. Run your React app. You'll see the two colored divs rendered based on the flexifycss utility classes.
 
 ### Utility Classes
 
-**flexifycss** offers a wide range of utility classes for various styling aspects. Here are some examples:
+flexifycss offers a comprehensive set of utility classes, organized by category:
 
-**Display Modes**
+#### Display
 
 - `.flex-row`: Sets display to flex with row direction.
 - `.flex-column`: Sets display to flex with column direction.
 
-**Padding**
+#### Spacing
 
-- `.p-1` to `.p-50`: Applies padding values from 1px to 50px on all sides.
-- `.pt-1` to `.pt-50`: Applies padding-top values from 1px to 50px.
-- `.pb-1` to `.pb-50`: Applies padding-bottom values from 1px to 50px.
-- `.pr-1` to `.pr-50`: Applies padding-right values from 1px to 50px.
-- `.pl-1` to `.pl-50`: Applies padding-left values from 1px to 50px.
+- **Padding:** `.p-1` to `.p-50`, `.pt-1` to `.pt-50`, `.pb-1` to `.pb-50`, `.pr-1` to `.pr-50`, `.pl-1` to `.pl-50`
+- **Margin:** `.m-1` to `.m-50`, `.mt-1` to `.mt-50`, `.mb-1` to `.mb-50`, `.ml-1` to `.ml-50`, `.mr-1` to `.mr-50`
+- **Gap:** `.gap-1` to `.gap-100`
 
-**Margin**
+#### Dimensions
 
-- `.m-1` to `.m-50`: Applies margin values from 1px to 50px on all sides.
-- `.mt-1` to `.mt-50`: Applies margin-top values from 1px to 50px.
-- `.mb-1` to `.mb-50`: Applies margin-bottom values from 1px to 50px.
-- `.ml-1` to `.ml-50`: Applies margin-left values from 1px to 50px.
-- `.mr-1` to `.mr-50`: Applies margin-right values from 1px to 50px.
+- **Width:** `.w-1p` to `.w-100p` (percentage), `.w-5px` to `.w-1000px` (pixels), `.w-1s` to `.w-100s` (viewport width)
+- **Height:** `.h-1p` to `.h-100p` (percentage), `.h-5px` to `.h-1000px` (pixels), `.h-1s` to `.h-100s` (viewport height)
 
-**Gap**
+#### Border
 
-- `.gap-1` to `.gap-100`: Applies gap values from 1px to 100px to elements within a flex container.
+- **Border Radius:** `.br-1p` to `.br-100p` (percentage), `.br-1px` to `.br-100px` (pixels), `.br-circle`, `.br-none`
+- **Border Width:** `.bw-1px` to `.bw-100px` (pixels), `.bw-thin`, `.bw-medium`, `.bw-thick`, `.bw-none`
+- **Border Style:** `.bs-solid`, `.bs-dashed`, `.bs-dotted`, `.bs-double`, `.bs-groove`, `.bs-ridge`, `.bs-inset`, `.bs-outset`, `.bs-none`, `.bs-hidden`
 
-**Width**
+#### Color
 
-- `.w-1p` to `.w-100p`: Sets width from 1% to 100% of the parent container.
-- `.w-5px` to `.w-1000px`: Sets width in pixels with increments of 5px.
-- `.w-1s` to `.w-100s`: Sets width in viewport widths (vw) with increments of 1vw.
+- **Color:**
+  - `.color-black`, `.color-white`
+  - **Predefined Color Profiles:** `.color-blue-100`, `.color-blue-90` to `.color-blue-10`, `.color-blueGreen-100`, `.color-blueGreen-90` to `.color-blueGreen-10`, `.color-red-100`, `.color-red-90` to `.color-red-10`, `.color-orange-100`, `.color-orange-90` to `.color-orange-10`, `.color-green-100`, `.color-green-90` to `.color-green-10`, `.color-gray-100`, `.color-gray-90` to `.color-gray-10`, `.color-purple-100`, `.color-purple-90` to `.color-purple-10`, `.color-yellow-100`, `.color-yellow-90` to `.color-yellow-10`
+  - **User Defined Color Profiles:** `.color-primary`, `.color-secondary`, `.color-accent`, `.color-neutral`, `.color-error` (define these in your `:root`)
 
-**Height**
+- **Opacity Variations:** Each predefined color has opacity variations from 10 to 90 (e.g., `.color-blue-80-50`)
 
-- `.h-1p` to `.h-100p`: Sets height from 1% to 100% of the parent container.
-- `.h-5px` to `.h-1000px`: Sets height in pixels with increments of 5px.
-- `.h-1s` to `.h-100s`: Sets height in viewport heights (vh) with increments of 1vh.
+#### Background
 
-**Border Radius**
+- **Background Color:**
+  - `.back-color-black`, `.back-color-white`
+  - **Predefined Color Profiles:** `.back-color-blue-100`, `.back-color-blue-90` to `.back-color-blue-10`, `.back-color-blueGreen-100`, `.back-color-blueGreen-90` to `.back-color-blueGreen-10`, `.back-color-red-100`, `.back-color-red-90` to `.back-color-red-10`, `.back-color-orange-100`, `.back-color-orange-90` to `.back-color-orange-10`, `.back-color-green-100`, `.back-color-green-90` to `.back-color-green-10`, `.back-color-gray-100`, `.back-color-gray-90` to `.back-color-gray-10`, `.back-color-purple-100`, `.back-color-purple-90` to `.back-color-purple-10`, `.back-color-yellow-100`, `.back-color-yellow-90` to `.back-color-yellow-10`
+  - **User Defined Background Color Profiles:** `.back-color-primary`, `.back-color-secondary`, `.back-color-accent`, `.back-color-neutral`, `.back-color-error`
+  - **Opacity Variations:** Each predefined background color has opacity variations from 10 to 90 (e.g., `.back-color-blue-80-50`)
 
-- `.br-1p` to `.br-100p`: Sets border-radius in percentage with increments of 1%.
-- `.br-1px` to `.br-100px`: Sets border-radius in pixels with increments of 1px.
-- `.br-circle`: Sets border-radius to 50% creating a circle.
-- `.br-none`: Sets border-radius to 0.
+#### Border
 
-**Border Width**
+- **Border Color:**
+  - `.bc-black`, `.bc-white`
+  - **Predefined Color Profiles:** `.bc-blue-100`, `.bc-blue-90` to `.bc-blue-10`, `.bc-blueGreen-100`, `.bc-blueGreen-90` to `.bc-blueGreen-10`, `.bc-red-100`, `.bc-red-90` to `.bc-red-10`, `.bc-orange-100`, `.bc-orange-90` to `.bc-orange-10`, `.bc-green-100`, `.bc-green-90` to `.bc-green-10`, `.bc-gray-100`, `.bc-gray-90` to `.bc-gray-10`, `.bc-purple-100`, `.bc-purple-90` to `.bc-purple-10`, `.bc-yellow-100`, `.bc-yellow-90` to `.bc-yellow-10`
+  - **User Defined Border Color Profiles:** `.bc-primary`, `.bc-secondary`, `.bc-accent`, `.bc-neutral`, `.bc-error`
+  - **Opacity Variations:** Each predefined border color has opacity variations from 10 to 90 (e.g., `.bc-blue-80-50`)
 
-- `.bw-1px` to `.bw-100px`: Sets border-width in pixels with increments of 1px.
-- `.bw-thin`, `.bw-medium`, `.bw-thick`: Sets border-width to default values.
-- `.bw-none`: Sets border-width to 0.
+#### Typography
 
-**Border Style**
+- **Font Sizes:** `.font-xs` to `.font-6xl`
+- **Line Heights:** `.line-height-xs` to `.line-height-6xl`
+- **Font Weights:** `.font-w-100` to `.font-w-900`
+- **Font Styles:** `.font-italic`, `.font-oblique`, `.font-normal`
+- **Text Transform:** `.text-transform-none`, `.text-transform-uppercase`, `.text-transform-lowercase`, `.text-transform-capitalize`
+- **Letter Spacing:** `.letter-spacing-0` to `.letter-spacing-100`
+- **Word Spacing:** `.word-spacing-0` to `.word-spacing-100`
+- **Font Variants:** `.font-variant-normal`, `.font-variant-small-caps`
 
-- `.bs-solid`, `.bs-dashed`, `.bs-dotted`, `.bs-double`, `.bs-groove`, `.bs-ridge`, `.bs-inset`, `.bs-outset`: Sets border-style to different styles.
-- `.bs-none`, `.bs-hidden`: Sets border-style to none and hidden, respectively.
+#### Flexbox
 
-**Border Color**
+- **Justify Content:** `.justify-start`, `.justify-center`, `.justify-end`, `.justify-between`, `.justify-around`, `.justify-evenly`
+- **Align Items:** `.align-start`, `.align-center`, `.align-end`, `.align-baseline`, `.align-stretch`
+- **
 
-- `.bc-black`, `.bc-white`: Sets border-color to black and white, respectively.
-- `.bc-blue100` to `.bc-yellow10`: Sets border-color to predefined color variables with different opacities.
+Align Content:** `.align-content-start`, `.align-content-center`, `.align-content-end`, `.align-content-between`, `.align-content-around`, `.align-content-evenly`
+- **Align Self:** `.align-self-auto`, `.align-self-start`, `.align-self-center`, `.align-self-end`, `.align-self-baseline`, `.align-self-stretch`
 
-**Color**
+#### Positioning
 
-- `.color-black`, `.color-white`: Sets color to black and white, respectively.
-- `.color-blue100` to `.color-yellow10`: Sets color to predefined color variables with different opacities.
+- **Position:** `.pos-static`, `.pos-relative`, `.pos-absolute`, `.pos-fixed`, `.pos-sticky`
+- **Top, Right, Bottom, Left:** `.top-0` to `.top-100`, `.right-0` to `.right-100`, `.bottom-0` to `.bottom-100`, `.left-0` to `.left-100`
 
-**Background**
+#### Transitions and Animations
 
-- `.back-color-black`: Sets background-color to black.
-- `.back-color-blue100` to `.back-color-yellow10`: Sets background-color to predefined color variables with different opacities.
+- **Transitions:** `.transition-all`, `.transition-opacity`, `.transition-transform`, `.transition-color`, `.transition-background-color`
+- **Animations:** `.animate-fade-in`, `.animate-slide-up`, `.animate-slide-down`, `.animate-bounce`, `.animate-spin`
 
-**Font Sizes**
+#### Shadows
 
-- `.font-xs` to `.font-6xl`: Applies font sizes based on predefined variables.
+- **Box Shadows:** `.shadow-sm`, `.shadow-md`, `.shadow-lg`, `.shadow-xl`, `.shadow-2xl`, `.shadow-none`
 
-**Line Heights**
+### Contribution
 
-- `.line-height-xs` to `.line-height-6xl`: Applies line-height based on predefined variables.
+Contributions are welcome! If you'd like to improve or add new features, please fork the repository and submit a pull request. Ensure that your code follows the existing style and includes tests where applicable.
 
-**Font Weights**
+### License
 
-- `.font-w-100` to `.font-w-900`: Sets font-weight to specific values.
+flexifycss is licensed under the GNU GENERAL PUBLIC LICENSE License. See the [LICENSE](LICENSE) file for more details.
 
-**Font Styles**
+### Contact
 
-- `.font-italic`, `.font-oblique`, `.font-normal`: Sets font-style to italic, oblique, and normal, respectively.
-
-**Text Transform**
-
-- `.text-transform-none`, `.text-transform-uppercase`, `.text-transform-lowercase`, `.text-transform-capitalize`: Applies text transform to elements.
-
-**Letter Spacing**
-
-- `.letter-spacing-0` to `.letter-spacing-100`: Sets letter-spacing in pixels with increments of 5px.
-
-**Word Spacing**
-
-- `.word-spacing-0` to `.word-spacing-100`: Sets word-spacing in pixels with increments of 5px.
-
-**Font Variants**
-
-- `.font-variant-normal`, `.font-variant-small-caps`: Sets font-variant to normal and small-caps, respectively.
-
-**Justify Content**
-
-- `.justify-start`, `.justify-center`, `.justify-end`, `.justify-between`, `.justify-around`, `.justify-evenly`: Sets justify-content property to different values.
-
-**Align Items**
-
-- `.align-start`, `.align-center`, `.align-end`, `.align-baseline`, `.align-stretch`: Sets align-items property to different values.
-
-**Flex Property**
-
-- `.flex-1` to `.flex-20`: Sets flex property with incremental values from 1 to 20.
-- `.flex-auto`, `.flex-initial`, `.flex-none`: Sets flex property to auto, initial, and none, respectively.
-
-**Flex Grow**
-
-- `.flex-grow-1` to `.flex-grow-3`: Sets flex-grow property with incremental values from 1 to 3.
-- `.flex-grow-auto`, `.flex-grow-0`: Sets flex-grow property to auto and 0, respectively.
-
-**Flex Shrink**
-
-- `.flex-shrink-1` to `.flex-shrink-3`: Sets flex-shrink property with incremental values from 1 to 3.
-- `.flex-shrink-auto`, `.flex-shrink-0`: Sets flex-shrink property to auto and 0, respectively.
-
-**Flex Basis**
-
-- `.flex-basis-auto`, `.flex-basis-0`, `.flex-basis-1`, `.flex-basis-2`, `.flex-basis-3`, `.flex-basis-50`, `.flex-basis-100`: Sets flex-basis property to different
-
- values.
-
-**Order Property**
-
-- `.order-1` to `.order-20`: Sets order property with incremental values from 1 to 20.
-- `.order-first`, `.order-last`, `.order-none`: Sets order property to first, last, and none, respectively.
-
-**Text Alignment**
-
-- `.text-left`, `.text-right`, `.text-center`, `.text-justify`: Sets text alignment to left, right, center, and justify, respectively.
-
-**Overflow**
-
-- `.overflow-auto`, `.overflow-hidden`, `.overflow-visible`, `.overflow-scroll`: Sets overflow property to auto, hidden, visible, and scroll, respectively.
-
-**Box Shadow**
-
-- `.shadow-xs` to `.shadow-6xl`: Applies box-shadow based on predefined variables.
-
-**Opacity**
-
-- `.opacity-0` to `.opacity-100`: Sets opacity in percentage increments of 10.
+For any questions or feedback, please contact [Lati Tibabu](mailto:latitibabu2018@gmail.com).
 
 ---
 
-### Conclusion
+**Happy Styling with flexifycss!**
 
-**flexifycss** is a versatile and powerful CSS utility library that allows developers to quickly and efficiently style their web applications. By leveraging predefined utility classes, you can keep your CSS clean, organized, and easy to maintain.
