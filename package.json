@@ -1,41 +1,41 @@
 {
-  "name": "flexifycss",
-  "version": "1.0.0",
-  "description": "FlexifyCSS - A CSS Utility Library for Effortless Styling",
-  "main": "index.js",
-  "scripts": {
-    "test": "testRun"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lati-tibabu/FlexifyCSS.git"
-  },
-  "keywords": [
-    "css",
-    "flexbox",
-    "utility",
-    "responsive",
-    "flex",
-    "grid",
-    "styling",
-    "css-library",
-    "frontend",
-    "web-development",
-    "responsive-design",
-    "flexbox-utilities",
-    "css-utilities",
-    "ui",
-    "ui-design",
-    "web-design",
-    "flexify",
-    "modern-css",
-    "css-tools",
-    "css-framework"
-  ],
-  "author": "Lati Tibabu",
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/lati-tibabu/FlexifyCSS/issues"
-  },
-  "homepage": "https://github.com/lati-tibabu/FlexifyCSS#readme"
+    "name": "flexifycss",
+    "version": "1.0.1-beta.1",
+    "description": "FlexifyCSS - A CSS Utility Library for Effortless Styling",
+    "main": "index.js",
+    "scripts": {
+        "test": "testRun"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lati-tibabu/FlexifyCSS.git"
+    },
+    "keywords": [
+        "css",
+        "flexbox",
+        "utility",
+        "responsive",
+        "flex",
+        "grid",
+        "styling",
+        "css-library",
+        "frontend",
+        "web-development",
+        "responsive-design",
+        "flexbox-utilities",
+        "css-utilities",
+        "ui",
+        "ui-design",
+        "web-design",
+        "flexify",
+        "modern-css",
+        "css-tools",
+        "css-framework"
+    ],
+    "author": "Lati Tibabu",
+    "license": "GPL-2.0",
+    "bugs": {
+        "url": "https://github.com/lati-tibabu/FlexifyCSS/issues"
+    },
+    "homepage": "https://github.com/lati-tibabu/FlexifyCSS#readme"
 }
