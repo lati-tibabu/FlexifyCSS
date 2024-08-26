@@ -26019,3 +26019,275 @@
         /* Adjust margin */
     }
 }
+
+
+/* Components */
+
+
+/* Buttons */
+
+
+/* Base button styles */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Button Variants */
+
+.button-no-radius {
+    border-radius: 0;
+}
+
+.button-sharp {
+    border-radius: 8px;
+}
+
+.button-rounded {
+    border-radius: 16px;
+}
+
+.button-outline {
+    border: 2px solid;
+}
+
+.button-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-full-width {
+    width: 100%;
+}
+
+.button-small {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.button-large {
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.button-disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.button-icon-only {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.button-text {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/* End of Buttons */
+
+
+/* Inputs */
+
+
+/* Base input styles */
+
+.input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Input Variants */
+
+
+/* 1. Rounded */
+
+.input-rounded {
+    border-radius: 8px;
+}
+
+
+/* 2. Square */
+
+.input-square {
+    border-radius: 0;
+}
+
+
+/* 3. Filled */
+
+.input-filled {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+
+/* 4. Focus */
+
+.input-focus {
+    border-color: #007bff;
+    /* Example color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+    /* Example shadow */
+}
+
+
+/* 5. Disabled */
+
+.input-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+/* 6. Error */
+
+.input-error {
+    border-color: #dc3545;
+    /* Example error color */
+}
+
+
+/* 7. Success */
+
+.input-success {
+    border-color: #28a745;
+    /* Example success color */
+}
+
+
+/* 8. Large */
+
+.input-large {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+
+/* 9. Small */
+
+.input-small {
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+
+/* 10. Full Width */
+
+.input-full-width {
+    width: 100%;
+}
+
+
+/* 11. Search */
+
+.input-search {
+    padding-left: 30px;
+    /* Space for icon */
+    /* background-image: url("search-icon.svg"); */
+    /* Example icon */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    /* Adjust icon position */
+     ::after {
+        content: "Search";
+    }
+}
+
+
+/* End of Inputs */
+
+
+/* Wrapper */
+
+
+/* Base wrapper styles */
+
+.wrapper {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #99999954;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Layout Variants */
+
+.wrapper-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Other Wrapper Variants */
+
+.wrapper-rounded {
+    border-radius: 8px;
+}
+
+.wrapper-square {
+    border-radius: 0;
+}
+
+.wrapper-no-padding {
+    padding: 0;
+}
+
+.wrapper-no-margin {
+    margin: 0;
+}
+
+.wrapper-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-full-width {
+    width: 100%;
+}
+
+.wrapper-background {
+    background-color: #f0f0f0;
+    /* Example background color */
+}
+
+.wrapper-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-space-between {
+    justify-content: space-between;
+}
+
+.wrapper-space-around {
+    justify-content: space-around;
+}
+
+
+/* End of wrapper */

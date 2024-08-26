@@ -1,6 +1,6 @@
 {
     "name": "flexifycss",
-    "version": "1.0.1-beta.3",
+    "version": "1.0.1-beta.4",
     "description": "FlexifyCSS - A CSS Utility Library for Effortless Styling",
     "main": "index.js",
     "scripts": {
