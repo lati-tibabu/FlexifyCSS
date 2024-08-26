@@ -1,0 +1,72 @@
+@import url('../styles.css');
+
+/* Base button styles */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Button Variants */
+
+.button-no-radius {
+    border-radius: 0;
+}
+
+.button-sharp {
+    border-radius: 8px;
+}
+
+.button-rounded {
+    border-radius: 16px;
+}
+
+.button-outline {
+    border: 2px solid;
+}
+
+.button-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-full-width {
+    width: 100%;
+}
+
+.button-small {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.button-large {
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.button-disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.button-icon-only {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.button-text {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}

@@ -173,3 +173,55 @@ For any questions or feedback, please contact [Lati Tibabu](mailto:latitibabu201
 
 **Happy Styling with flexifycss!**
 
+### New Updates:
+
+flexifycss has been updated with the following new features:
+
+* **Button Styles:** 
+    * **Base button styles:** Provides basic styles for buttons, including display, alignment, padding, border, cursor, and transition.
+    * **Button Variants:** Includes several variants to customize button styles, such as:
+        * `button-no-radius`: Removes border-radius.
+        * `button-sharp`:  Sets a sharp border-radius.
+        * `button-rounded`: Sets a rounded border-radius.
+        * `button-outline`: Creates an outlined button.
+        * `button-shadow`: Adds a box shadow.
+        * `button-full-width`: Sets the button width to 100%.
+        * `button-small`: Creates a smaller button.
+        * `button-large`: Creates a larger button.
+        * `button-disabled`: Disables the button.
+        * `button-icon-only`: Creates a button with an icon only.
+        * `button-text`: Creates a button with text only.
+
+* **Input Styles:**
+    * **Base input styles:** Provides basic styles for input fields, including padding, margin, border, border-radius, outline, and transition.
+    * **Input Variants:** Includes several variants to customize input styles, such as:
+        * `input-rounded`: Sets a rounded border-radius.
+        * `input-square`: Removes border-radius, making it square.
+        * `input-filled`: Removes border and sets a background color.
+        * `input-focus`: Changes the border color and optionally adds a box-shadow when focused.
+        * `input-disabled`: Disables the input field.
+        * `input-error`: Sets a specific border color for error states.
+        * `input-success`: Sets a specific border color for success states.
+        * `input-large`: Creates a larger input field.
+        * `input-small`: Creates a smaller input field.
+        * `input-full-width`: Sets the input width to 100%.
+        * `input-search`: Styles the input field for search purposes (includes space for an icon).
+
+* **Wrapper Styles:** 
+    * **Base wrapper styles:** Provides basic styles for wrapping elements, including padding, margin, border-radius, border, and transition.
+    * **Layout Variants:** Includes layout variants to control the flex direction:
+        * `wrapper-row`: Sets flex direction to row.
+        * `wrapper-column`: Sets flex direction to column.
+    * **Other Wrapper Variants:** Includes variants for customization, such as:
+        * `wrapper-rounded`: Sets a rounded border-radius.
+        * `wrapper-square`: Removes border-radius.
+        * `wrapper-no-padding`: Removes padding.
+        * `wrapper-no-margin`: Removes margin.
+        * `wrapper-shadow`: Adds a box shadow.
+        * `wrapper-full-width`: Sets the width to 100%.
+        * `wrapper-background`: Sets a background color.
+        * `wrapper-center`: Centers content using flexbox properties.
+        * `wrapper-space-between`: Distributes content with space between items.
+        * `wrapper-space-around`: Distributes content with space around items.
+
+These new updates offer a more comprehensive set of styling options for buttons, input fields, and wrappers. Feel free to explore the new classes and use them in your projects for effortless and efficient styling!

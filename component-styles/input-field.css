@@ -1,0 +1,108 @@
+/* Base input styles */
+
+.input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Input Variants */
+
+
+/* 1. Rounded */
+
+.input-rounded {
+    border-radius: 8px;
+}
+
+
+/* 2. Square */
+
+.input-square {
+    border-radius: 0;
+}
+
+
+/* 3. Filled */
+
+.input-filled {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+
+/* 4. Focus */
+
+.input-focus {
+    border-color: #007bff;
+    /* Example color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+    /* Example shadow */
+}
+
+
+/* 5. Disabled */
+
+.input-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+/* 6. Error */
+
+.input-error {
+    border-color: #dc3545;
+    /* Example error color */
+}
+
+
+/* 7. Success */
+
+.input-success {
+    border-color: #28a745;
+    /* Example success color */
+}
+
+
+/* 8. Large */
+
+.input-large {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+
+/* 9. Small */
+
+.input-small {
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+
+/* 10. Full Width */
+
+.input-full-width {
+    width: 100%;
+}
+
+
+/* 11. Search */
+
+.input-search {
+    padding-left: 30px;
+    /* Space for icon */
+    /* background-image: url("search-icon.svg"); */
+    /* Example icon */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    /* Adjust icon position */
+     ::after {
+        content: "Search";
+    }
+}

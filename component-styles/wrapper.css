@@ -1,0 +1,67 @@
+/* Base wrapper styles */
+
+.wrapper {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #99999954;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Layout Variants */
+
+.wrapper-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Other Wrapper Variants */
+
+.wrapper-rounded {
+    border-radius: 8px;
+}
+
+.wrapper-square {
+    border-radius: 0;
+}
+
+.wrapper-no-padding {
+    padding: 0;
+}
+
+.wrapper-no-margin {
+    margin: 0;
+}
+
+.wrapper-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-full-width {
+    width: 100%;
+}
+
+.wrapper-background {
+    background-color: #f0f0f0;
+    /* Example background color */
+}
+
+.wrapper-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-space-between {
+    justify-content: space-between;
+}
+
+.wrapper-space-around {
+    justify-content: space-around;
+}
