@@ -6,9 +6,11 @@
 
 /* Variables */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
 :root {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
     --blue100: rgba(0, 0, 255, 1);
     --blue90: rgba(0, 0, 128, 1);
     --blue80: rgba(65, 105, 225, 1);
@@ -25984,14 +25986,17 @@
         flex-direction: column;
         /* Stack items vertically */
     }
+
     .w-50p {
         width: 100%;
         /* Full width for smaller screens */
     }
+
     .p-20 {
         padding: 10px;
         /* Reduce padding */
     }
+
     .m-20 {
         margin: 10px;
         /* Reduce margin */
@@ -26006,14 +26011,17 @@
         flex-direction: row;
         /* Keep items in row layout */
     }
+
     .w-50p {
         width: 50%;
         /* Half width for medium screens */
     }
+
     .p-20 {
         padding: 15px;
         /* Adjust padding */
     }
+
     .m-20 {
         margin: 15px;
         /* Adjust margin */
@@ -26208,8 +26216,9 @@
     /* Example icon */
     background-repeat: no-repeat;
     background-position: 10px center;
+
     /* Adjust icon position */
-     ::after {
+    ::after {
         content: "Search";
     }
 }
