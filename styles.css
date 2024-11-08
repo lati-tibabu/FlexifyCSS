@@ -7,10 +7,7 @@
 /* Variables */
 
 
-
-
 :root {
-    font-family: 'Times New Roman', Times, serif;
     --blue100: rgba(0, 0, 255, 1);
     --blue90: rgba(0, 0, 128, 1);
     --blue80: rgba(65, 105, 225, 1);
